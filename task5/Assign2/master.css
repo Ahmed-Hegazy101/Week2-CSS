@@ -1,0 +1,15 @@
+.one {
+    font-size: 100px;
+    text-transform: uppercase;
+
+}
+.two {
+    font-size: 100px;
+    text-transform: capitalize;
+
+}
+.three {
+    font-size: 100px;
+    text-transform: lowercase;
+
+}

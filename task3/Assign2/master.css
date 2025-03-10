@@ -1,0 +1,34 @@
+
+.element-1 {
+    width: 400px;
+    background-color: rgb(247, 241, 238);
+    padding: 20px;
+    margin: 20px;
+    border-width: 0 0 0 10px;
+    border-left-color: rgb(255, 0, 179);
+    border-style: solid;
+    
+
+}
+.element-2 {
+    width: 400px;
+    background-color: rgb(247, 241, 238);
+    padding: 20px;
+    margin: 20px;
+    border-width: 0 0 0 10px;
+    border-left-color: brown;
+    border-style: solid;
+    visibility: hidden;
+
+
+}
+.element-3 {
+    width: 400px;
+    background-color: rgb(247, 241, 238);
+    padding: 20px;
+    margin: 20px;
+    border-width: 0 0 0 10px;
+    border-left-color: rgb(42, 147, 165);
+    border-style: solid;
+
+}

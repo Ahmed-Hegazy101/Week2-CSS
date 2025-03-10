@@ -1,0 +1,23 @@
+.div1 {
+    background-color: #faefef;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+.div2 {
+    background-color: #faefef;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    
+
+}
+.div3 {
+    background-color: #faefef;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
