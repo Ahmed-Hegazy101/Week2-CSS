@@ -1,0 +1,34 @@
+div {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    top: 270px;
+    left: 450px;
+    right: 255px;
+
+}
+div::first-letter {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    visibility: hidden;
+    
+}
+div::before {
+    content: "1";
+    background-color: red;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 15px;
+    height: 20px;
+    top: 12px;
+    left: -20px;
+
+}

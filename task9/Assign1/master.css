@@ -1,0 +1,20 @@
+div {
+    width: 600px;
+    height: 60px;
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    left: 360px;
+    top: 190px;
+    /* margin: 10px; */
+    font-size: 25px;
+    padding: 10px;
+    align-content: center;
+}
+:empty {
+    width: 600px;
+    height: 60px;
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

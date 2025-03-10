@@ -1,0 +1,104 @@
+/* -webkit-
+-moz-
+-o-
+-ms- */
+div {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+}
+.base {
+    width: 150px;
+    height: 200px;
+    background-color: #eee;
+    position: relative;
+    padding: 10px;
+}
+.or {
+    width: 2px;
+    height: 220px;
+    background-color: rgb(0, 174, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.or::after {
+    content: "Or";
+    font-weight: bold;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: -10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    align-content: center;
+}
+.base .basic {
+    padding: 10px;
+    width: 110px;
+    height: 20px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    
+}
+.base .basic .free {
+    width: 110px;
+    height: 110px;
+    background-color: #dfdede;
+    align-content: center;
+    color: black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    
+
+}
+.base .pro {
+    padding: 10px;
+    width: 110px;
+    height: 20px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+
+}
+.base .pro .dolar {
+    width: 110px;
+    height: 110px;
+    background-color: #dfdede;
+    color: black;
+    align-content: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+
+}

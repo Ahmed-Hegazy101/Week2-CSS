@@ -1,0 +1,46 @@
+.parent {
+    background-color: #eee;
+    width: 800px;
+    margin: 20px 260px;
+
+}
+div {
+    background-color: rgb(190, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    float: left;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+.full {
+    margin-top: 15px;
+    width: calc(100% - 30px);
+   
+
+}
+
+.row1 {
+    width: calc((100% - (30px + 30px)) / 3);
+    
+
+}
+.row2 {
+    width: calc((100% - (15px + 30px)) / 2);
+    
+
+}
+
+.row3 {
+    width: calc((100% - (45px + 30px)) / 4);
+    
+
+}
+
+
+
+
+
